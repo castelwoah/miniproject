@@ -1,0 +1,27 @@
+sql= """CREATE Table violation_accident
+(
+    `JIJACE_NM` VARCHAR(10),
+    `CHISA` FLOAT,
+    `ACC_HUM` INT,
+    `SIDO_CD` INT,
+    `GUBUN_NM` VARCHAR(30),
+    `SLTWD_CNT` INT,
+    `SERI_ACC` INT,
+    `SIDO_NM` VARCHAR(10),
+    `AC_MODE` VARCHAR(4),
+    `CRT_JIJACE_CD` INT ,
+    `BASE_NAME` VARCHAR(30),
+    `BIG_CNT` INT,
+    `PSGT_CNT` INT,
+    `WND_ACC` INT,
+    `ACC_CNT` INT,
+    `TRK_CNT` INT,
+    `DEATH_CNT` INT,
+    `BASE_CODE` INT,
+    `WND_CNT` INT,
+    `DEATH_ACC` INT,
+    `GUBUN` INT,
+    `SERI_CNT` INT,
+    `SLTWD_ACC` INT,
+    `YEAR` INT
+)"""
